@@ -1,0 +1,42 @@
+.planet{
+   margin: auto;
+   width: 160px;
+   height: 184px;
+   background: url(./img/planet.png) 0 0 no-repeat;
+   animation-name: animate-planet;
+   animation-duration: 6s;
+   animation-timing-function: steps(149);
+   animation-delay: 1.2s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+@keyframes animate-planet{
+   from{
+      background-position: 0px 0px;
+   }
+   to{
+      background-position: -23840px 0px;
+   }
+}
+
+.girl{
+   margin: 20px auto;
+   width: 53px;
+   height: 92px;
+   background: url(./img/girl.png) 0 0 no-repeat;
+   animation-name: animate-girl;
+   animation-duration: .5s;
+   animation-timing-function: steps(4);
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+@keyframes animate-girl{
+   from{
+      background-position: 0px 0px;
+   }
+   to{
+      background-position: -212px 0px;
+   }
+}
